@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+body{
+    background-color:rgb(252, 240, 223)
+} 
+  
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center ;
+        list-style-type: none;
+         height: 65px;
+         background-color: rgb(38, 228, 108);
+         color: rgb(5, 3, 3) ;
+}
+nav ul li{
+    padding: 0 10px ;
+}
+
+.brand img{
+    width: 65px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 85vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin:auto;
+background-image: url('bg.jpg');
+background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: rgb(17, 213, 82);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} 
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#controller{
+    width: 80vw;
+    text-align: center;
+    color: rgb(106, 66, 5);
+    cursor: pointer;
+}
+
+.songItem{
+    height: 60px;
+     display: flex;
+     background-color:white;
+     width: 50%;
+     color:rgb(10, 5, 5);
+     margin: 40px 0;
+     justify-content:space-around;
+     align-items:center;
+     width: 40vw;
+     border-radius: 34px;
+     font-size: 20px;
+     font-weight: bolder;
+     
+     
+}
+
+
+.songItem img{
+    width: 50px;
+    margin: 0 -70px;
+    border-radius: 23px;
+}
+
+
+.songListplay i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left:11vw;
+    font-size: 20px;
+    
+}
